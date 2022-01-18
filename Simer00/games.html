@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<script async src="https://arc.io/widget.min.js#a8f2XLUA"></script>
+	<meta name="viewport" content="width=device-width">
+	<title>Games | Simer00</title>
+	<link href="/assets/main/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link rel="icon" href="https://cdn.simer00.repl.co/content/simer00/simer00/logo.png">
+	<script src="https://cdn.simer00.repl.co/content/simer00/simer00/jquery.js"></script>
+	<script src="/assets/main/script.js"></script>
+  <audio id="gurenge" loop autoplay preload="auto">
+    <source src="https://cdn.simer00.repl.co/content/simer00/simer00/gurenge.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <script>document.getElementById("gurenge").volume = 0.1;</script>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<!--────────────────Header───────────────-->
+		<header>
+			<a class="logo" href="/">
+				<img src="https://cdn.simer00.repl.co/content/simer00/simer00/logo.png" alt="Simer's Logo" />
+		</a>
+		<nav id="myDIV">	
+		 <ul class="nav-bar"><div class="bg"></div>
+			<li><a class="nav-link active" href="#home">Home</a></li>
+			<li><a class="nav-link" href="#games">Games</a></li>
+		 </ul>
+     <script>
+     // Add active class to the current button (highlight it)
+    var header = document.getElementById("myDIV");
+    var btns = header.getElementsByClassName("nav-link");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+      });
+    }
+    </script>
+			
+			<div class="hamburger">
+				<div class="line1"></div>
+            <div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<!--─────────────────Home────────────────-->
+	  <div id="home">
+		 <div class="filter" style="background: url('https://cdn.simer00.repl.co/content/simer00/simer00/splash2.jpg')no-repeat; background-size: cover; background-position:center; position: absolute; top: 0px; bottom: 0; left: 0; right: 0; opacity:.80;"></div>
+     <script>
+     var backgrounds = [
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash.jpg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash2.jpg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash3.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash4.png",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash5.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash6.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash7.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash8.png",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash9.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash10.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash11.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash12.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash13.jpg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash14.jpg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash15.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash16.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash17.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash18.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash19.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash20.jpg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash21.jpg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash22.gif",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash23.gif",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash24.jpeg",
+       "https://cdn.simer00.repl.co/content/simer00/simer00/splashes/splash25.jpeg",
+       ];
+       var randomItem = backgrounds[Math.floor(Math.random()*backgrounds.length)];document.getElementsByClassName('filter')[0].style.backgroundImage  = 'url(' + randomItem + ')';
+    </script>
+		 <section class="intro">
+		  <h3>Hey! Soy xurxo_rod<hr></h3>
+		  <p>Web Developer</p>
+		  <p>My socials!</p>
+			  
+		  <!--────social media links─────-->
+			 
+		  <div class="social-media">
+        <a href="https://Twitch.Tv/xurxo222" target="_blank"><i class='fab fa-twitch'></i></a>
+			  <a href="https://www.Instagram.com/xurxo_rod" target="_blank"><i class='fab fa-instagram'></i></a>
+			  <a href="https://Twitter.com/no" target="_blank"><i class='fab fa-twitter'></i></a>
+			  <a href="https://www.youtube.com/channel/UCqLJbcXGRbX_SCOUi3DWtbA?sub_confirmation=1" target="_blank"><i class="fab fa-youtube"></i></a>
+		    </div>
+			 
+		 </section> 
+	  </div>  
+		
+	  <!--───────────────Games───────────────-->
+	  <div id="games"> 
+		 <h3>Browser Games.<hr></h3>
+		  <p>Here are some of my browser games, you may like.</p>
+		  <div class="work-box">
+		  <div class="work">
+		<!--───────────────card───────────────-->
+			<div class="card" style="border-radius: 10px; overflow: hidden;">
+        <img src="https://cdn.simer00.repl.co/content/simer00/simer00/games/minecraft.jpg" width="200" height="315"> <a href="https://Simer00.repl.co/Minecraft">
+				<div class="work-content">Minecraft Simer00 Edition!</div></a>
+            </div>
+			<div class="card" style="border-radius: 10px; overflow: hidden;">
+		<img src="https://cdn.simer00.repl.co/content/simer00/simer00/minecraft.png" width="200" height="315"> <a href="https://Simer00.repl.co/KillTheKing">
+				<div class="work-content">KillTheKing!</div></a>
+            </div>
+            <div class="card" style="border-radius: 10px; overflow: hidden;">
+		<img src="https://cdn.simer00.repl.co/content/simer00/simer00/filter.png" width="200" height="315"> <a href="https://Simer00.repl.co/TowerBlocks">
+				<div class="work-content">TowerBlocks!</div></a>
+            </div>
+            <div class="card" style="border-radius: 10px; overflow: hidden;">
+		<img src="https://cdn.simer00.repl.co/content/simer00/simer00/react.gif" width="200" height="315"> <a href="https://Simer00.repl.co/StickHero">
+				<div class="work-content">StickHero Scuffed Edition!</div></a>
+            </div>
+            <div class="card" style="border-radius: 10px; overflow: hidden;">
+        <img src="https://cdn.simer00.repl.co/content/simer00/simer00/bot.gif" width="200" height="315"> <a href="https://Simer00.repl.co/theMine">
+				<div class="work-content">TheMine!</div></a>
+            </div>
+			<div class="card" style="border-radius: 10px; overflow: hidden;">
+		<img src="https://cdn.simer00.repl.co/content/simer00/simer00/minecraft.png" width="200" height="315"> <a href="https://Simer00.repl.co/voxelMaker">
+				<div class="work-content">VoxelMaker!</div></a>
+            </div>
+            <div class="card" style="border-radius: 10px; overflow: hidden;">
+		<img src="https://cdn.simer00.repl.co/content/simer00/simer00/react.gif" width="200" height="315"> <a href="https://Simer00.repl.co/crossyRoads">
+				<div class="work-content">CrossyRoads Scuffed Edition!</div></a>
+            </div>			
+		  </div>
+		  </div>
+	  </div>
+		 
+	</main>
+	  <footer class="copyright">© 2021 
+		  <a href="https://repl.it/@xurxo222" target="_blank">Jurujo</a>
+     </footer>
+	  
+  </div>
+  </body>
+</html>
